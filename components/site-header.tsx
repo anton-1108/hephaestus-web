@@ -26,12 +26,63 @@ export function SiteHeader() {
             >
               Our Products
             </Link>
-            <Link href="/about-us" className="">
+            <Link
+              href="/about-us"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
               About Us
+            </Link>
+            <Link
+              href="/contact-us"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Contact Us
             </Link>
           </nav>
         </div>
+        <div className="flex items-center gap-4">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="md:hidden"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? (
+              <X className="h-5 w-5" />
+            ) : (
+              <Menu className="h-5 w-5" />
+            )}
+          </Button>
+        </div>
       </div>
+      {/* Mobile Menu */}
+      {mobileMenuOpen && (
+        <div className="md:hidden border-t border-border/40 bg-background/95 backdrop-blur">
+          <nav className="container mx-auto flex flex-col gap-4 px-4 py-4">
+            <Link
+              href="/our-products"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Our Products
+            </Link>
+            <Link
+              href="/about-us"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              About Us
+            </Link>
+            <Link
+              href="/contact-us"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Contact Us
+            </Link>
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
