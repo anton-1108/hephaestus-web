@@ -56,24 +56,36 @@ export function ProductsShowcase() {
               key={product.id}
               className="border-border hover:border-primary/50 transition-all hover:shadow-lg overflow-hidden"
             >
-              <div className="relative h-64 w-full">
+              <div className="relative h-64 w-full overflow-hidden bg-muted">
                 <Image
-                  src={product.image || "/"}
-                  alt="product.name"
+                  src={product.image || "/placeholder.svg"}
+                  alt={product.name}
                   fill
-                  className=""
+                  className="object-cover transition-transform hover:scale-105 duration-300"
                 />
               </div>
-              <CardContent>
-                <h3></h3>
-                <p></p>
-                <ul>
-                  <li></li>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-foreground mb-3">
+                  {product.name}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  {product.description}
+                </p>
+                <ul className="space-y-2 mb-6">
+                  {product.features.map((feature, idx) => (
+                    <li
+                      key={idx}
+                      className="flex items-center gap-2 text-sm text-foreground"
+                    >
+                      <div className="h-1.5 w-1.5 rounded-full bg-primary" />
+                      {feature}
+                    </li>
+                  ))}
                 </ul>
-                <Link href={``}>
-                  <Button>
+                <Link href={`/our-products#${product.id}`}>
+                  <Button variant="outline" className="w-full group ">
                     Learn More
-                    <ArrowRight />
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Button>
                 </Link>
               </CardContent>
