@@ -11,12 +11,7 @@ const products = [
     name: "ANFO Truck",
     description:
       "Our ANFO (Ammonium Nitrate Fuel Oil) Trucks are engineered for efficiency,safety, and reliability in the most demanding mining, quarrying, and construction environments. Designed to mix, transport, and deliver bulk explosives with pinpoint accuracy,these robust vehicles ensure optimal performance while adhering to strict safety and regulatory standards.",
-    features: [
-      "High load capacity",
-      "Corrosion resistant",
-      "All-terrain performance",
-      "Easy maintenance",
-    ],
+    features: ["Truck"],
     image: "/jijieganfo.avif",
   },
   {
@@ -24,7 +19,7 @@ const products = [
     name: "Emulsion Truck",
     description:
       "Our Emulsion Trucks are engineered to transport and pump sensitized bulk emulsion with unmatched precision, safety, and reliability. Ideal for large-scale mining, quarrying, and infrastructure projects, these vehicles ensure consistent, high-energy explosive delivery while maximizing productivity and minimizing downtime.",
-    features: ["Low vibration design", ""],
+    features: ["Truck"],
     image: "/Presentation1.avif",
   },
   {
@@ -32,7 +27,7 @@ const products = [
     name: "Emulsion Module",
     description:
       "It is an automatic device for producing explosive mixtures or open emulsions by mixing aqueous solutions and oil solutions prepared from chemical raw materials.Emulsifying equipment is manufactured according to the order with a capacity of 5000-12000 kg/h",
-    features: ["Low vibration design", "demo"],
+    features: ["Truck"],
     image: "/jijieganfo.avif",
   },
 ];

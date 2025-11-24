@@ -14,10 +14,10 @@ export function SiteHeader() {
           <Link href="/" className="flex items-center space-x-2">
             <div className="flex h-9 w-9 items-center justify-center rounded-md bg-primary">
               <span className="text-xl font-bold text-primary-foreground">
-                H
+                <img src="/logo.avif" alt="" />
               </span>
             </div>
-            <span>Hephaestus</span>
+            <span>Hephaestus Machinery </span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link

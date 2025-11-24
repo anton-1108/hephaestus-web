@@ -9,7 +9,7 @@ export function SiteFooter() {
             <div className="flex items-center space-x-2 mb-4">
               <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary">
                 <span className="text-lg font-bold text-primary-foreground">
-                  H
+                  <img src="/logo.avif" alt="" />
                 </span>
               </div>
               <span className="text-lg font-semibold text-foreground">
@@ -17,7 +17,7 @@ export function SiteFooter() {
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Professional track systems for explosive material transport in
+              Professional truck systems for explosive material transport in
               mining, quarry, and construction industries.
             </p>
           </div>

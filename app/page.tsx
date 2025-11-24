@@ -9,13 +9,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <HeroSection />
-      <ProductsShowcase />
-      <VideoSection />
-      <FeaturesSection />
-      <CTASection />
+      <main className="flex-1">
+        {" "}
+        <HeroSection />
+        <ProductsShowcase />
+        <VideoSection />
+        <FeaturesSection />
+        <CTASection />
+      </main>
+
       <SiteFooter />
     </div>
   );
