@@ -14,7 +14,10 @@ export function SiteHeader() {
           <Link href="/" className="flex items-center space-x-2">
             <div className="flex h-9 w-9 items-center justify-center rounded-md bg-primary">
               <span className="text-xl font-bold text-primary-foreground">
-                <img src="/logo.avif" alt="" />
+                <img
+                  src="https://res.cloudinary.com/dquipdgj5/image/upload/v1764166913/Logo_new_suqmrm.avif"
+                  alt=""
+                />
               </span>
             </div>
             <span>Hephaestus Machinery </span>

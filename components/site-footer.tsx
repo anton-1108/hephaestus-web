@@ -9,7 +9,10 @@ export function SiteFooter() {
             <div className="flex items-center space-x-2 mb-4">
               <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary">
                 <span className="text-lg font-bold text-primary-foreground">
-                  <img src="/logo.avif" alt="" />
+                  <img
+                    src="https://res.cloudinary.com/dquipdgj5/image/upload/v1764166913/Logo_new_suqmrm.avif"
+                    alt=""
+                  />
                 </span>
               </div>
               <span className="text-lg font-semibold text-foreground">

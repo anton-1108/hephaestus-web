@@ -68,7 +68,7 @@ export default function AboutUsPage() {
                     <div className="flex justify-center items-center">
                       {" "}
                       <img
-                        src="/blastlogo.avif"
+                        src="https://res.cloudinary.com/dquipdgj5/image/upload/v1764166500/blast_logo_final_rn2hqx.avif"
                         alt=""
                         className="w-50 h-50 "
                       />
