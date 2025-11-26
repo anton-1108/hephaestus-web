@@ -25,7 +25,7 @@ export function VideoSection() {
                   className="absolute top-0 left-0 w-full h-full object-cover"
                   poster="/photo2.JPG"
                 >
-                  <source src="/video.mp4" type="video/mp4" />
+                  {/* <source src="" type="" /> */}
                   Your browser does not support the video tag.
                 </video>
               </div>

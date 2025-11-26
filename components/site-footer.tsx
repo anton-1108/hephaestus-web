@@ -29,7 +29,7 @@ export function SiteFooter() {
                   href="/our-products#anfo-track"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Anfo Track
+                  Anfo Truck
                 </Link>
               </li>
               <li>
@@ -37,7 +37,7 @@ export function SiteFooter() {
                   href="/our-products#emulsion-track"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Emulsion Track
+                  Emulsion Truck
                 </Link>
               </li>
               <li>
@@ -45,7 +45,7 @@ export function SiteFooter() {
                   href="/our-products#unibody-track"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Unibody Track
+                  Unibody Truck
                 </Link>
               </li>
               <li>
