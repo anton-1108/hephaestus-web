@@ -36,7 +36,7 @@ const products = [
     tagline: "Built for the Toughest Conditions",
     description:
       "The vehicle is a technique for transporting non-explosive mixtures (liquid emulsions) and accompanying substances in special containers and mixing these substances according to the technology in the wells of open-pit blasting areas. Bulk explosive charging trucks are custom-built with capacities from 8 000 to 20 000 kg to meet your operational needs.",
-    image: "/presentation1.avif",
+    image: "/Presentation1.avif",
     specifications: [
       { label: "Capacity", value: "Emulsion Tank (1-2) 10,000 kg" },
       { label: "", value: "Water Tank 1,100 L" },
